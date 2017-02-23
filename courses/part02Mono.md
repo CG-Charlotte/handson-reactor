@@ -28,7 +28,7 @@ Unlike empty() who emit a complete event this one will not.
 @[No Emission]({"stubs": ["/src/test/java/io/pivotal/literx/Part02Mono.java"], "command": "io.pivotal.literx.Part02MonoTest#noSignal", "layout":"aside"})
 
 
-No you can create a mono from an unique value.
+Now, you can create a mono from an unique value.
 
 @[Create a Mono from an item]({"stubs": ["/src/test/java/io/pivotal/literx/Part02Mono.java"], "command": "io.pivotal.literx.Part02MonoTest#fromValue", "layout":"aside"})
 
