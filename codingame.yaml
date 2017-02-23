@@ -5,6 +5,9 @@ content:
     - id: Flux
       title: Learn how to create Flux instances
       statement: courses/part01Flux.md
+    - id: Flux
+      title: Learn how to create Mono instances
+      statement: courses/part02Mono.md
     
 
 projects:

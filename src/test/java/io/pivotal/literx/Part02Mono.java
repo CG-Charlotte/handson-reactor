@@ -16,12 +16,6 @@ public class Part02Mono {
 
 //========================================================================================
 
-	@Test
-	public void empty() {
-		Mono<String> mono = emptyMono();
-		StepVerifier.create(mono)
-				.verifyComplete();
-	}
 
 	// TODO Return an empty Mono
 	Mono<String> emptyMono() {
@@ -30,16 +24,6 @@ public class Part02Mono {
 
 //========================================================================================
 
-	@Test
-	public void noSignal() {
-		Mono<String> mono = monoWithNoSignal();
-		StepVerifier
-				.create(mono)
-				.expectSubscription()
-				.expectNoEvent(Duration.ofSeconds(1))
-				.thenCancel()
-				.verify();
-	}
 
 	// TODO Return an Mono that never emit any signal
 	Mono<String> monoWithNoSignal() {
@@ -48,27 +32,13 @@ public class Part02Mono {
 
 //========================================================================================
 
-	@Test
-	public void fromValue() {
-		Mono<String> mono = fooMono();
-		StepVerifier.create(mono)
-				.expectNext("foo")
-				.verifyComplete();
-	}
-
 	// TODO Return a Mono that contains a "foo" value
 	Mono<String> fooMono() {
 		return null;
 	}
 
 //========================================================================================
-
-	@Test
-	public void error() {
-		Mono<String> mono = errorMono();
-		StepVerifier.create(mono)
-				.verifyError(IllegalStateException.class);
-	}
+	
 
 	// TODO Create a Mono that emits an IllegalStateException
 	Mono<String> errorMono() {
