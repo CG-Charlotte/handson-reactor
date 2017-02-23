@@ -14,6 +14,9 @@ content:
     - id: transform
       title: Learn to transform our asynchronous data
       statement: courses/part04Transform.md
+    - id: Merge
+      title: Merge
+      statement: courses/part05Merge.md
 
     
 
