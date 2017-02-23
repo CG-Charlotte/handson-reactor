@@ -9,8 +9,11 @@ content:
       title: Learn how to create Mono instances
       statement: courses/part02Mono.md
     - id: StepVerifier
-      title: What are stepverifier and how to use it
+      title: StepVerifier and how to use it
       statement: courses/part03StepVerifier.md
+    - id: transform
+      title: Learn to transform our asynchronous data
+      statement: courses/part04Transform.md
 
     
 
