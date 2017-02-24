@@ -17,6 +17,21 @@ content:
     - id: Merge
       title: Merge
       statement: courses/part05Merge.md
+    - id: Request
+      title: Request
+      statement: courses/part06Request.md
+    - id: Error
+      title: Error
+      statement: courses/part07Errors.md
+    - id: Adapt
+      title: Adapt
+      statement: courses/part09Adapt.md
+    - id: ReactiveToBlocking
+      title: Reactive To Blocking
+      statement: courses/part10ReactiveToBlocking.md
+    - id: BlockingToReactive
+      title: Blocking to Reactive
+      statement: courses/part11BlockingToReactive.md
 
     
 
