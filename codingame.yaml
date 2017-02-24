@@ -28,7 +28,7 @@ content:
       statement: courses/part09Adapt.md
     - id: OthersOperations
       title: Others operations
-      statement: courses/OtherOperations.md
+      statement: courses/part08OtherOperations.md
     - id: ReactiveToBlocking
       title: Reactive To Blocking
       statement: courses/part10ReactiveToBlocking.md
